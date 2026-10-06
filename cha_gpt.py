@@ -29,7 +29,7 @@ STRIDE_SEC = 1
 TARGET_FPS = 20
 EPOCHS = 25
 BATCH_SIZE = 32
-SEARCH_DIR = '.'
+SEARCH_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 
 # 현재 중간점검 설계
 # A/B/C: 각 20세션 -> Train 16 / Test 4
@@ -43,7 +43,7 @@ random.seed(SEED)
 np.random.seed(SEED)
 tf.random.set_seed(SEED)
 
-plt.rcParams['font.family'] = 'Malgun Gothic' if os.name == 'nt' else 'AppleGothic'
+plt.rcParams['font.family'] = 'Malgun Gothic' if os.name == 'nt' else 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 CLASS_NAMES = ['Auth', 'Unauth', 'Empty']
@@ -55,10 +55,15 @@ SCENARIOS = ['A', 'B', 'C']
 # ============================================================
 def find_matching_files(prefix, search_dir=SEARCH_DIR):
     """
-    파일명 안의 A01, A02 ... / B01 ... / C01 ... / D01 ... 형태를 검색.
+    data/A, data/B, data/C, data/D 중 해당 폴더에서 세션 파일을 검색.
+    파일명 안의 A01, A02 ... / B01 ... / C01 ... / D01 ... 형태를 인식.
     예: A01.txt, csi_A01_20261005.txt
     """
-    candidates = glob.glob(os.path.join(search_dir, '*.txt'))
+    session_dir = os.path.join(search_dir, prefix)
+    if not os.path.isdir(session_dir):
+        raise FileNotFoundError(f'데이터 폴더를 찾을 수 없습니다: {session_dir}')
+
+    candidates = glob.glob(os.path.join(session_dir, '*.txt'))
     found = []
 
     pattern = re.compile(
