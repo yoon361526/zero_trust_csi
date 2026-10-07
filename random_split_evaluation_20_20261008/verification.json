@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "recordings_unchanged": 80,
+  "models_checked": 36,
+  "training_test_file_overlap": 0,
+  "checks": [
+    "frozen settings and epoch counts",
+    "training seed and deterministic mode",
+    "original file hashes",
+    "file membership and folder labels",
+    "probability and prediction alignment",
+    "confusion counts and test metrics"
+  ],
+  "parameter_selection_test_overlap": "Recorded separately; old tuning data may overlap new tests."
+}

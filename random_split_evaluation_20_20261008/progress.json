@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "current_run": null,
+  "completed_runs": [
+    {
+      "name": "ordered",
+      "seed": null
+    },
+    {
+      "name": "seed_0",
+      "seed": 0
+    },
+    {
+      "name": "seed_1",
+      "seed": 1
+    },
+    {
+      "name": "seed_2",
+      "seed": 2
+    },
+    {
+      "name": "seed_3",
+      "seed": 3
+    },
+    {
+      "name": "seed_4",
+      "seed": 4
+    }
+  ],
+  "total_runs": 6,
+  "elapsed_seconds": 1159.979332425999
+}

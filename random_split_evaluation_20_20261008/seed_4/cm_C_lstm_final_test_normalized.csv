@@ -1,0 +1,4 @@
+﻿True / Predicted,Auth,Unauth,Empty
+Auth,0.9375,0.0625,0.0
+Unauth,0.0818452380952381,0.9181547619047619,0.0
+Empty,0.0,0.0,1.0

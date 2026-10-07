@@ -1,0 +1,437 @@
+{
+  "sessions_per_person": 15,
+  "selection_rule": "first numbered sessions; no selection based on model accuracy",
+  "selected": {
+    "A": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt"
+    ],
+    "B": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt"
+    ],
+    "C": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt"
+    ],
+    "D": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt"
+    ]
+  },
+  "excluded": {
+    "A": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A20.txt"
+    ],
+    "B": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt"
+    ],
+    "C": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt"
+    ],
+    "D": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt"
+    ]
+  },
+  "outer_splits": {
+    "A": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt"
+      ]
+    },
+    "B": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt"
+      ]
+    },
+    "C": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt"
+      ]
+    }
+  },
+  "tuning_splits": {
+    "A": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ]
+    },
+    "B": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ]
+    },
+    "C": {
+      "train_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt"
+      ],
+      "test_auth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt"
+      ],
+      "train_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt"
+      ],
+      "test_unauth": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt"
+      ],
+      "train_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt"
+      ],
+      "test_empty": [
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+      ]
+    }
+  },
+  "seed": 42,
+  "folds": false
+}

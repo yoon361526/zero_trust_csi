@@ -1,0 +1,23 @@
+{
+  "authorized_person": "A",
+  "model": "cnn",
+  "best_trial": 10,
+  "validation_macro_f1": 0.9958429345645979,
+  "params": {
+    "window_sec": 4,
+    "batch_size": 64,
+    "dropout": 0.2,
+    "learning_rate": 0.000972063490000485,
+    "filters": 32,
+    "kernel_size": 5
+  },
+  "diagnostics": {
+    "best_epoch": 12,
+    "epochs_run": 17,
+    "false_auth_rate": 0.0048449612403100775,
+    "validation_accuracy": 0.9959486833220796
+  },
+  "protocol_sha256": "dead589f577ea164113b3794169e115fe27797cb4533a3d19b832b952e7eccc5",
+  "max_epochs": 60,
+  "final_test_used": false
+}

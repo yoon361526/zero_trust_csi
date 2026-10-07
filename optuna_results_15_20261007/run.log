@@ -1,0 +1,136 @@
+A: tuning train 27 / validation 9 / reserved final test 9
+B: tuning train 27 / validation 9 / reserved final test 9
+C: tuning train 27 / validation 9 / reserved final test 9
+6 Studies, each adding 20 Trials
+[I 2026-10-07 23:10:41,855] A new study created in RDB with name: A_cnn
+[I 2026-10-07 23:11:08,626] Trial 0 finished with value: 0.9654183196762878 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'filters': 64, 'kernel_size': 3}. Best is trial 0 with value: 0.9654183196762878.
+[I 2026-10-07 23:11:24,934] Trial 1 finished with value: 0.9687966909839641 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.0002858051065806936, 'filters': 32, 'kernel_size': 5}. Best is trial 1 with value: 0.9687966909839641.
+[I 2026-10-07 23:11:42,708] Trial 2 finished with value: 0.978584280994777 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00027551959649510803, 'filters': 64, 'kernel_size': 5}. Best is trial 2 with value: 0.978584280994777.
+[I 2026-10-07 23:11:56,097] Trial 3 finished with value: 0.9712119321353273 and parameters: {'window_sec': 1, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00039618677904065835, 'filters': 32, 'kernel_size': 7}. Best is trial 2 with value: 0.978584280994777.
+[I 2026-10-07 23:12:10,490] Trial 4 finished with value: 0.9901759811501362 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0009702573394120733, 'filters': 32, 'kernel_size': 5}. Best is trial 4 with value: 0.9901759811501362.
+[I 2026-10-07 23:12:24,076] Trial 5 pruned. epoch 6: validation Macro F1=0.9588
+[I 2026-10-07 23:12:38,987] Trial 6 pruned. epoch 9: validation Macro F1=0.9702
+[I 2026-10-07 23:12:50,289] Trial 7 finished with value: 0.9880887918405908 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00042993594547314416, 'filters': 32, 'kernel_size': 5}. Best is trial 4 with value: 0.9901759811501362.
+[I 2026-10-07 23:13:01,925] Trial 8 pruned. epoch 9: validation Macro F1=0.9642
+[I 2026-10-07 23:13:14,825] Trial 9 pruned. epoch 9: validation Macro F1=0.9583
+[I 2026-10-07 23:13:30,814] Trial 10 finished with value: 0.9958429345645979 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.000972063490000485, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:13:44,963] Trial 11 finished with value: 0.9767715493166128 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.000972373663750277, 'filters': 64, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:14:01,523] Trial 12 finished with value: 0.98806351732433 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.0008690821550301608, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:14:10,488] Trial 13 finished with value: 0.9723904467770509 and parameters: {'window_sec': 1, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.0007609679680961647, 'filters': 32, 'kernel_size': 3}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:14:27,198] Trial 14 finished with value: 0.9770648846910722 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0005734127228563031, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:14:38,547] Trial 15 finished with value: 0.96865348737113 and parameters: {'window_sec': 1, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.000963276221439771, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:14:48,866] Trial 16 finished with value: 0.9915849889624724 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0008715822328070919, 'filters': 32, 'kernel_size': 7}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:15:03,473] Trial 17 finished with value: 0.9752016472082112 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0007382968825383588, 'filters': 32, 'kernel_size': 7}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:15:14,917] Trial 18 finished with value: 0.9797476317741646 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0006283249045869197, 'filters': 64, 'kernel_size': 7}. Best is trial 10 with value: 0.9958429345645979.
+[I 2026-10-07 23:15:28,380] Trial 19 finished with value: 0.9913854375949632 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.0006381955727335456, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9958429345645979.
+A cnn: best validation Macro F1=0.9958
+[I 2026-10-07 23:15:29,640] A new study created in RDB with name: A_lstm
+[I 2026-10-07 23:17:03,768] Trial 0 finished with value: 0.9835728346907509 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'units': 64}. Best is trial 0 with value: 0.9835728346907509.
+[I 2026-10-07 23:17:53,345] Trial 1 finished with value: 0.9908878031804944 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019594972058679176, 'units': 128}. Best is trial 1 with value: 0.9908878031804944.
+[I 2026-10-07 23:18:29,843] Trial 2 finished with value: 0.99353303229348 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006432759992849892, 'units': 128}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:19:13,448] Trial 3 finished with value: 0.9923358703497732 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0003521358805467869, 'units': 64}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:20:47,685] Trial 4 finished with value: 0.9889721279856992 and parameters: {'window_sec': 1, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.000186788025710707, 'units': 32}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:21:28,590] Trial 5 pruned. epoch 6: validation Macro F1=0.9563
+[I 2026-10-07 23:22:42,446] Trial 6 finished with value: 0.9857064530260479 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.00043406770118894003, 'units': 32}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:23:37,123] Trial 7 pruned. epoch 6: validation Macro F1=0.9688
+[I 2026-10-07 23:24:16,991] Trial 8 finished with value: 0.9889721279856992 and parameters: {'window_sec': 1, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.000642865884883182, 'units': 64}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:24:46,690] Trial 9 pruned. epoch 6: validation Macro F1=0.9707
+[I 2026-10-07 23:25:07,223] Trial 10 pruned. epoch 6: validation Macro F1=0.9392
+[I 2026-10-07 23:25:51,923] Trial 11 finished with value: 0.9879816862068029 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0002728744740994443, 'units': 64}. Best is trial 2 with value: 0.99353303229348.
+[I 2026-10-07 23:27:17,232] Trial 12 finished with value: 0.9971937821515122 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0008850379152651265, 'units': 128}. Best is trial 12 with value: 0.9971937821515122.
+[I 2026-10-07 23:27:59,572] Trial 13 finished with value: 0.9978950972109485 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0006276920665263281, 'units': 128}. Best is trial 13 with value: 0.9978950972109485.
+[I 2026-10-07 23:28:27,151] Trial 14 pruned. epoch 6: validation Macro F1=0.9666
+[I 2026-10-07 23:29:13,599] Trial 15 finished with value: 0.990882782043003 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00035955611208042363, 'units': 128}. Best is trial 13 with value: 0.9978950972109485.
+[I 2026-10-07 23:29:54,411] Trial 16 pruned. epoch 6: validation Macro F1=0.9675
+[I 2026-10-07 23:31:07,420] Trial 17 pruned. epoch 6: validation Macro F1=0.9697
+[I 2026-10-07 23:31:30,855] Trial 18 finished with value: 0.9883904059504515 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0005778448771400388, 'units': 128}. Best is trial 13 with value: 0.9978950972109485.
+[I 2026-10-07 23:31:58,438] Trial 19 finished with value: 0.9987071897537273 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0005090605516528287, 'units': 128}. Best is trial 19 with value: 0.9987071897537273.
+A lstm: best validation Macro F1=0.9987
+[I 2026-10-07 23:32:00,219] A new study created in RDB with name: B_cnn
+[I 2026-10-07 23:32:20,285] Trial 0 finished with value: 0.9142354448651799 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'filters': 64, 'kernel_size': 3}. Best is trial 0 with value: 0.9142354448651799.
+[I 2026-10-07 23:32:35,080] Trial 1 finished with value: 0.9249999999999999 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.0002858051065806936, 'filters': 32, 'kernel_size': 5}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:32:56,567] Trial 2 finished with value: 0.7386379146513379 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00027551959649510803, 'filters': 64, 'kernel_size': 5}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:33:09,409] Trial 3 finished with value: 0.8932547925758924 and parameters: {'window_sec': 1, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00039618677904065835, 'filters': 32, 'kernel_size': 7}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:33:21,890] Trial 4 finished with value: 0.8936361765755395 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0009702573394120733, 'filters': 32, 'kernel_size': 5}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:33:31,838] Trial 5 pruned. epoch 6: validation Macro F1=0.8285
+[I 2026-10-07 23:33:43,902] Trial 6 pruned. epoch 6: validation Macro F1=0.8451
+[I 2026-10-07 23:33:56,130] Trial 7 finished with value: 0.9243803171334308 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00042993594547314416, 'filters': 32, 'kernel_size': 5}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:34:12,359] Trial 8 finished with value: 0.9066152691993178 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0003241509528627275, 'filters': 32, 'kernel_size': 7}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:34:27,802] Trial 9 finished with value: 0.9182667575877209 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019268171109476225, 'filters': 64, 'kernel_size': 3}. Best is trial 1 with value: 0.9249999999999999.
+[I 2026-10-07 23:34:40,905] Trial 10 finished with value: 0.9250331685199867 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.00017823762709326006, 'filters': 32, 'kernel_size': 5}. Best is trial 10 with value: 0.9250331685199867.
+[I 2026-10-07 23:34:54,232] Trial 11 finished with value: 0.9256861567154142 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.00012620647064692653, 'filters': 32, 'kernel_size': 5}. Best is trial 11 with value: 0.9256861567154142.
+[I 2026-10-07 23:35:07,347] Trial 12 finished with value: 0.9256861567154142 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.00010887218328733276, 'filters': 32, 'kernel_size': 5}. Best is trial 11 with value: 0.9256861567154142.
+[I 2026-10-07 23:35:17,610] Trial 13 pruned. epoch 6: validation Macro F1=0.8731
+[I 2026-10-07 23:35:38,856] Trial 14 finished with value: 0.9132570064786062 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.00010037800288348535, 'filters': 32, 'kernel_size': 5}. Best is trial 11 with value: 0.9256861567154142.
+[I 2026-10-07 23:35:50,009] Trial 15 pruned. epoch 6: validation Macro F1=0.8136
+[I 2026-10-07 23:36:04,870] Trial 16 pruned. epoch 6: validation Macro F1=0.7800
+[I 2026-10-07 23:36:22,409] Trial 17 finished with value: 0.9166662530632754 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.00013169006183418253, 'filters': 32, 'kernel_size': 7}. Best is trial 11 with value: 0.9256861567154142.
+[I 2026-10-07 23:36:38,942] Trial 18 finished with value: 0.9160967590715897 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00014710563050722287, 'filters': 32, 'kernel_size': 5}. Best is trial 11 with value: 0.9256861567154142.
+[I 2026-10-07 23:36:51,320] Trial 19 finished with value: 0.923772366859147 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00015435333164969203, 'filters': 32, 'kernel_size': 5}. Best is trial 11 with value: 0.9256861567154142.
+B cnn: best validation Macro F1=0.9257
+[I 2026-10-07 23:36:53,544] A new study created in RDB with name: B_lstm
+[I 2026-10-07 23:38:01,379] Trial 0 finished with value: 0.8666261627461261 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'units': 64}. Best is trial 0 with value: 0.8666261627461261.
+[I 2026-10-07 23:38:45,292] Trial 1 finished with value: 0.9172278338945006 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019594972058679176, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:40:05,639] Trial 2 finished with value: 0.8996621190681724 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006432759992849892, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:41:51,682] Trial 3 finished with value: 0.8599876747451282 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0003521358805467869, 'units': 64}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:43:13,849] Trial 4 finished with value: 0.8919247846361946 and parameters: {'window_sec': 1, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.000186788025710707, 'units': 32}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:44:11,508] Trial 5 finished with value: 0.9061839074663068 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0005091635945818553, 'units': 64}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:45:26,976] Trial 6 pruned. epoch 6: validation Macro F1=0.7213
+[I 2026-10-07 23:46:21,616] Trial 7 pruned. epoch 6: validation Macro F1=0.8230
+[I 2026-10-07 23:47:06,470] Trial 8 pruned. epoch 6: validation Macro F1=0.8669
+[I 2026-10-07 23:48:03,529] Trial 9 finished with value: 0.909198131530761 and parameters: {'window_sec': 2, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006576801979658926, 'units': 32}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:48:57,458] Trial 10 finished with value: 0.9150674826414379 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019753552945417696, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:49:37,115] Trial 11 finished with value: 0.8944257502556282 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00017868290063606396, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:51:05,024] Trial 12 finished with value: 0.9076150902904861 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.00025445065415033186, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:51:40,758] Trial 13 finished with value: 0.910029626955923 and parameters: {'window_sec': 1, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.00017612435223720332, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:52:31,194] Trial 14 finished with value: 0.9137746650047435 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00029524590469447816, 'units': 128}. Best is trial 1 with value: 0.9172278338945006.
+[I 2026-10-07 23:53:40,229] Trial 15 finished with value: 0.9206006716196297 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00011566686840960344, 'units': 128}. Best is trial 15 with value: 0.9206006716196297.
+[I 2026-10-07 23:54:41,065] Trial 16 finished with value: 0.9161813696145549 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00012679785094488693, 'units': 64}. Best is trial 15 with value: 0.9206006716196297.
+[I 2026-10-07 23:55:28,995] Trial 17 pruned. epoch 8: validation Macro F1=0.8792
+[I 2026-10-07 23:56:11,393] Trial 18 finished with value: 0.9109135386268775 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0001080064322955233, 'units': 128}. Best is trial 15 with value: 0.9206006716196297.
+[I 2026-10-07 23:57:31,088] Trial 19 pruned. epoch 11: validation Macro F1=0.8884
+B lstm: best validation Macro F1=0.9206
+[I 2026-10-07 23:57:33,756] A new study created in RDB with name: C_cnn
+[I 2026-10-07 23:57:50,429] Trial 0 finished with value: 0.7963460340155365 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'filters': 64, 'kernel_size': 3}. Best is trial 0 with value: 0.7963460340155365.
+[I 2026-10-07 23:58:07,530] Trial 1 finished with value: 0.829402341189064 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.5, 'learning_rate': 0.0002858051065806936, 'filters': 32, 'kernel_size': 5}. Best is trial 1 with value: 0.829402341189064.
+[I 2026-10-07 23:58:21,817] Trial 2 finished with value: 0.8250157485826275 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00027551959649510803, 'filters': 64, 'kernel_size': 5}. Best is trial 1 with value: 0.829402341189064.
+[I 2026-10-07 23:58:36,339] Trial 3 finished with value: 0.8352340114953015 and parameters: {'window_sec': 1, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00039618677904065835, 'filters': 32, 'kernel_size': 7}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-07 23:58:49,278] Trial 4 finished with value: 0.7869572158365262 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0009702573394120733, 'filters': 32, 'kernel_size': 5}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-07 23:59:03,635] Trial 5 finished with value: 0.8067719270954862 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.2, 'learning_rate': 0.00020463613363481617, 'filters': 64, 'kernel_size': 5}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-07 23:59:20,117] Trial 6 finished with value: 0.833277257567209 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.00012820100418916918, 'filters': 64, 'kernel_size': 7}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-07 23:59:33,256] Trial 7 finished with value: 0.8241285368895578 and parameters: {'window_sec': 4, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.00042993594547314416, 'filters': 32, 'kernel_size': 5}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-07 23:59:48,482] Trial 8 finished with value: 0.8263480180439582 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.0003241509528627275, 'filters': 32, 'kernel_size': 7}. Best is trial 3 with value: 0.8352340114953015.
+[I 2026-10-08 00:00:03,142] Trial 9 finished with value: 0.841969408219327 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019268171109476225, 'filters': 64, 'kernel_size': 3}. Best is trial 9 with value: 0.841969408219327.
+[I 2026-10-08 00:00:18,337] Trial 10 finished with value: 0.8602330779054917 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0007518875242065722, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:00:33,541] Trial 11 finished with value: 0.8242055442866801 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00010754345156322912, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:00:47,938] Trial 12 finished with value: 0.8413031413031412 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0009756338571108042, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:01:02,665] Trial 13 finished with value: 0.8312079707653929 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0003553069601727795, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:01:17,604] Trial 14 finished with value: 0.83559397474641 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00022139344639520356, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:01:33,361] Trial 15 finished with value: 0.8374080402191099 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0005470532710992306, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:01:53,791] Trial 16 finished with value: 0.8074285027181308 and parameters: {'window_sec': 2, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006653564612979319, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:02:20,937] Trial 17 finished with value: 0.8207021386759282 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.0001599537282793281, 'filters': 64, 'kernel_size': 3}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:02:37,477] Trial 18 finished with value: 0.8399749164428174 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00024252197209206748, 'filters': 32, 'kernel_size': 7}. Best is trial 10 with value: 0.8602330779054917.
+[I 2026-10-08 00:02:52,614] Trial 19 finished with value: 0.826472247671993 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.000659706324278376, 'filters': 64, 'kernel_size': 7}. Best is trial 10 with value: 0.8602330779054917.
+C cnn: best validation Macro F1=0.8602
+[I 2026-10-08 00:02:55,493] A new study created in RDB with name: C_lstm
+[I 2026-10-08 00:04:12,323] Trial 0 finished with value: 0.7951351034523181 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.3, 'learning_rate': 0.0005105903209394755, 'units': 64}. Best is trial 0 with value: 0.7951351034523181.
+[I 2026-10-08 00:04:49,592] Trial 1 finished with value: 0.8474945533769063 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.00019594972058679176, 'units': 128}. Best is trial 1 with value: 0.8474945533769063.
+[I 2026-10-08 00:05:50,470] Trial 2 finished with value: 0.8400213400213401 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006432759992849892, 'units': 128}. Best is trial 1 with value: 0.8474945533769063.
+[I 2026-10-08 00:06:52,871] Trial 3 finished with value: 0.8142411675292233 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.2, 'learning_rate': 0.0003521358805467869, 'units': 64}. Best is trial 1 with value: 0.8474945533769063.
+[I 2026-10-08 00:08:23,301] Trial 4 finished with value: 0.8246983032392704 and parameters: {'window_sec': 1, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.000186788025710707, 'units': 32}. Best is trial 1 with value: 0.8474945533769063.
+[I 2026-10-08 00:09:04,797] Trial 5 pruned. epoch 6: validation Macro F1=0.7389
+[I 2026-10-08 00:11:43,025] Trial 6 finished with value: 0.8549920281488812 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.00043406770118894003, 'units': 32}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:13:09,358] Trial 7 finished with value: 0.8282118853936833 and parameters: {'window_sec': 2, 'batch_size': 16, 'dropout': 0.2, 'learning_rate': 0.00010750512925563073, 'units': 32}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:13:58,074] Trial 8 pruned. epoch 6: validation Macro F1=0.7818
+[I 2026-10-08 00:14:37,848] Trial 9 finished with value: 0.8406864784973238 and parameters: {'window_sec': 2, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.0006576801979658926, 'units': 32}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:15:57,894] Trial 10 pruned. epoch 6: validation Macro F1=0.7639
+[I 2026-10-08 00:16:35,900] Trial 11 finished with value: 0.8302654270926894 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0001881295484217377, 'units': 128}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:17:51,391] Trial 12 pruned. epoch 6: validation Macro F1=0.7904
+[I 2026-10-08 00:19:24,159] Trial 13 finished with value: 0.8405721393034825 and parameters: {'window_sec': 4, 'batch_size': 16, 'dropout': 0.5, 'learning_rate': 0.0008765696668831305, 'units': 32}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:19:57,845] Trial 14 finished with value: 0.8357560677492578 and parameters: {'window_sec': 1, 'batch_size': 32, 'dropout': 0.3, 'learning_rate': 0.0008952323324849778, 'units': 128}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:20:18,220] Trial 15 finished with value: 0.8221810314646537 and parameters: {'window_sec': 2, 'batch_size': 64, 'dropout': 0.3, 'learning_rate': 0.000222748744108459, 'units': 128}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:20:49,631] Trial 16 pruned. epoch 7: validation Macro F1=0.7827
+[I 2026-10-08 00:21:30,263] Trial 17 finished with value: 0.8140480635864412 and parameters: {'window_sec': 4, 'batch_size': 32, 'dropout': 0.5, 'learning_rate': 0.00012200255386906072, 'units': 128}. Best is trial 6 with value: 0.8549920281488812.
+[I 2026-10-08 00:22:01,357] Trial 18 pruned. epoch 7: validation Macro F1=0.7656
+[I 2026-10-08 00:22:32,762] Trial 19 pruned. epoch 7: validation Macro F1=0.7758
+C lstm: best validation Macro F1=0.8550

@@ -1,0 +1,22 @@
+{
+  "authorized_person": "C",
+  "model": "lstm",
+  "best_trial": 15,
+  "validation_macro_f1": 0.9821609884064378,
+  "params": {
+    "window_sec": 4,
+    "batch_size": 32,
+    "dropout": 0.5,
+    "learning_rate": 0.00015463708440294872,
+    "units": 128
+  },
+  "diagnostics": {
+    "best_epoch": 1,
+    "epochs_run": 6,
+    "false_auth_rate": 0.002242152466367713,
+    "validation_accuracy": 0.9825870646766169
+  },
+  "protocol_sha256": "373085c8e2937d81885574e63f89cd44bbecc302ff920c10c2100fcb7ebaef34",
+  "max_epochs": 60,
+  "final_test_used": false
+}

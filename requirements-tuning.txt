@@ -1,0 +1,2 @@
+-r requirements-gpu.txt
+optuna==5.0.0

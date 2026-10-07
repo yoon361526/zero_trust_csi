@@ -1,0 +1,80 @@
+TensorFlow deterministic operations: True
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+A cnn: train 48 files (8322, 40, 192), test 12 files (2104, 40, 192), epochs=2
+Epoch 1/2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1791391746.713959  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_16}}
+521/521 - 11s - 22ms/step - accuracy: 0.9082 - loss: 0.2559
+Epoch 2/2
+521/521 - 8s - 16ms/step - accuracy: 0.9637 - loss: 0.1082
+E0000 00:00:1791391767.216168  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+findfont: Failed to find font weight bold for NanumGothic, now using 600.
+findfont: Failed to find font weight bold for NanumGothic, now using 600.
+A cnn: Empty recall train=1.0000 / test=1.0000
+A cnn: final test Macro F1=0.9622
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+A lstm: train 48 files (8077, 80, 192), test 12 files (2048, 80, 192), epochs=3
+Epoch 1/3
+E0000 00:00:1791391773.781638  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_16}}
+253/253 - 11s - 45ms/step - accuracy: 0.8878 - loss: 0.3221
+Epoch 2/3
+253/253 - 10s - 40ms/step - accuracy: 0.9712 - loss: 0.0991
+Epoch 3/3
+253/253 - 10s - 40ms/step - accuracy: 0.9797 - loss: 0.0776
+E0000 00:00:1791391806.371689  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+A lstm: Empty recall train=0.9996 / test=1.0000
+A lstm: final test Macro F1=0.9633
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+B cnn: train 48 files (8455, 20, 192), test 12 files (2132, 20, 192), epochs=4
+Epoch 1/4
+E0000 00:00:1791391816.462857  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_16}}
+265/265 - 6s - 21ms/step - accuracy: 0.8762 - loss: 0.3342
+Epoch 2/4
+265/265 - 4s - 16ms/step - accuracy: 0.9468 - loss: 0.1585
+Epoch 3/4
+265/265 - 4s - 17ms/step - accuracy: 0.9560 - loss: 0.1181
+Epoch 4/4
+265/265 - 4s - 17ms/step - accuracy: 0.9648 - loss: 0.0961
+E0000 00:00:1791391835.686024  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+B cnn: Empty recall train=1.0000 / test=1.0000
+B cnn: final test Macro F1=0.9532
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+B lstm: train 48 files (8326, 40, 192), test 12 files (2104, 40, 192), epochs=8
+Epoch 1/8
+131/131 - 5s - 37ms/step - accuracy: 0.9099 - loss: 0.2800
+Epoch 2/8
+131/131 - 4s - 28ms/step - accuracy: 0.9733 - loss: 0.0857
+Epoch 3/8
+131/131 - 4s - 30ms/step - accuracy: 0.9839 - loss: 0.0633
+Epoch 4/8
+131/131 - 4s - 29ms/step - accuracy: 0.9940 - loss: 0.0239
+Epoch 5/8
+131/131 - 4s - 29ms/step - accuracy: 0.9922 - loss: 0.0330
+Epoch 6/8
+131/131 - 4s - 27ms/step - accuracy: 0.9904 - loss: 0.0333
+Epoch 7/8
+131/131 - 4s - 29ms/step - accuracy: 0.9950 - loss: 0.0227
+Epoch 8/8
+131/131 - 4s - 28ms/step - accuracy: 0.9962 - loss: 0.0170
+E0000 00:00:1791391872.119173  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+B lstm: Empty recall train=1.0000 / test=1.0000
+B lstm: final test Macro F1=0.9933
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+C cnn: train 48 files (8327, 40, 192), test 12 files (2104, 40, 192), epochs=2
+Epoch 1/2
+E0000 00:00:1791391880.473045  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_16}}
+131/131 - 3s - 25ms/step - accuracy: 0.8961 - loss: 0.3149
+Epoch 2/2
+131/131 - 2s - 17ms/step - accuracy: 0.9834 - loss: 0.0825
+E0000 00:00:1791391886.590809  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+C cnn: Empty recall train=1.0000 / test=1.0000
+C cnn: final test Macro F1=0.9358
+기존 Optuna 설정을 재사용합니다. 최적화 때와 재학습의 결정론적 연산 설정이 다릅니다.
+C lstm: train 48 files (8086, 80, 192), test 12 files (2048, 80, 192), epochs=1
+E0000 00:00:1791391892.737289  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_16}}
+253/253 - 11s - 44ms/step - accuracy: 0.9190 - loss: 0.2678
+E0000 00:00:1791391905.056453  202278 node_def_util.cc:682] NodeDef mentions attribute use_unbounded_threadpool which is not in the op definition: Op<name=MapDataset; signature=input_dataset:variant, other_arguments: -> handle:variant; attr=f:func; attr=Targuments:list(type),min=0; attr=output_types:list(type),min=1; attr=output_shapes:list(shape),min=1; attr=use_inter_op_parallelism:bool,default=true; attr=preserve_cardinality:bool,default=false; attr=force_synchronous:bool,default=false; attr=metadata:string,default=""> This may be expected if your graph generating binary is newer  than this binary. Unknown attributes will be ignored. NodeDef: {{node ParallelMapDatasetV2/_14}}
+C lstm: Empty recall train=1.0000 / test=1.0000
+C lstm: final test Macro F1=0.8942
+혼동행렬 및 최종 테스트 평가 저장: /mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/random_split_evaluation_20_20261008/seed_3
+학습/테스트 파일별 정확도, 클래스별 확률, 학습 기록, 모델 및 입력 파일 해시도 저장했습니다.

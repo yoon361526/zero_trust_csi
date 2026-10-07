@@ -1,0 +1,2059 @@
+[
+  {
+    "authorized_person": "A",
+    "model": "cnn",
+    "params": {
+      "window_sec": 2,
+      "batch_size": 16,
+      "dropout": 0.3,
+      "learning_rate": 0.0006025191457817103,
+      "filters": 64,
+      "kernel_size": 3
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 2,
+    "best_trial": 10,
+    "protocol_sha256": "917c79425789543bbc35b31721f2b1c4550e64b6be970b5b4c71d4e0f2a4ece8",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A20.txt",
+        "sha256": "5cfe2c4c4585bb5de56696c9c1423fdd6f2bc1959ce765f2335a39c9c803df45"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A17.txt",
+        "sha256": "82bda1d33e3a41e13849fbcd60cc2ced5b544bf6b16bedebc6aa5eb80951a349"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+        "sha256": "43eb0213344af16c22f56d24646273f5fc92b0e0b9e3612196648501b3fb782f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+        "sha256": "f0620ac8278dcb203c0d73f752c1af8214605ea64fe05b57d74c29bb7f6a1c6f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "sha256": "2cca00088dbf2f4e9d1506edc76be983bd37675120a6c68a1b5ad2ba1dc8d25a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A16.txt",
+        "sha256": "be0b6653c38b9584b442b332a9c1f873e8ac3714a7877af5df4e08f7eea8c439"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+        "sha256": "2e30f092f3b0b4f2fc27956cebe0218ef55b667af45b2423bfea298cd7e4e718"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt",
+        "sha256": "611771d149e0f96dd1fc977998d1d536bcaaeb53b45fbb454321a68a3ac7e534"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+        "sha256": "8b1ac72de5d56c2ed280437bb3c6e885b99b17c7104f0468b8182929efb531c9"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "sha256": "8c4ecb213e2f1fc13ec571f4ce1be9ef4da2073094c219cb866beb214ed24c62"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "A_cnn_model.keras"
+  },
+  {
+    "authorized_person": "A",
+    "model": "lstm",
+    "params": {
+      "window_sec": 4,
+      "batch_size": 32,
+      "dropout": 0.5,
+      "learning_rate": 0.0005091635945818553,
+      "units": 64
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 3,
+    "best_trial": 5,
+    "protocol_sha256": "f2d15515362d47d4926cb34add05870546e1c97f190e0c315f419c4e2324a2da",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A20.txt",
+        "sha256": "5cfe2c4c4585bb5de56696c9c1423fdd6f2bc1959ce765f2335a39c9c803df45"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A17.txt",
+        "sha256": "82bda1d33e3a41e13849fbcd60cc2ced5b544bf6b16bedebc6aa5eb80951a349"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A10.txt",
+        "sha256": "43eb0213344af16c22f56d24646273f5fc92b0e0b9e3612196648501b3fb782f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A13.txt",
+        "sha256": "f0620ac8278dcb203c0d73f752c1af8214605ea64fe05b57d74c29bb7f6a1c6f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A06.txt",
+        "sha256": "2cca00088dbf2f4e9d1506edc76be983bd37675120a6c68a1b5ad2ba1dc8d25a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A16.txt",
+        "sha256": "be0b6653c38b9584b442b332a9c1f873e8ac3714a7877af5df4e08f7eea8c439"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A14.txt",
+        "sha256": "2e30f092f3b0b4f2fc27956cebe0218ef55b667af45b2423bfea298cd7e4e718"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A15.txt",
+        "sha256": "611771d149e0f96dd1fc977998d1d536bcaaeb53b45fbb454321a68a3ac7e534"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A09.txt",
+        "sha256": "8b1ac72de5d56c2ed280437bb3c6e885b99b17c7104f0468b8182929efb531c9"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A02.txt",
+        "sha256": "8c4ecb213e2f1fc13ec571f4ce1be9ef4da2073094c219cb866beb214ed24c62"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "A_lstm_model.keras"
+  },
+  {
+    "authorized_person": "B",
+    "model": "cnn",
+    "params": {
+      "window_sec": 1,
+      "batch_size": 32,
+      "dropout": 0.5,
+      "learning_rate": 0.0004127134692667627,
+      "filters": 64,
+      "kernel_size": 5
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 4,
+    "best_trial": 11,
+    "protocol_sha256": "90d8811a864332d89aa11357f3ac2e3ab0b8a9386a76bd13e0b1efb3731db729",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt",
+        "sha256": "cceb699710ff811a437843f884a9d63330e853df7d4cb6ea311560a6f3c9d676"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "sha256": "d364be79a5dc68f690a5a1ba875927ab5a6d033b8ee0398391bef383696d7eb3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B16.txt",
+        "sha256": "95e306ff82197f7763d17dc76e115174bb53c3f99e3910661e9bcf276a22c5c2"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+        "sha256": "e0302c420894b4fbf51b117f438cf8185768ae1e5e72052877269e758e315a9f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "sha256": "f495630d5d94af7264938abaf06886a2a24e4b859f046e2a3bec31a4b157778c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "sha256": "c1c8e326c79c4ff11ba1758548c6fc4e209f5cfd385f6f08550de5a037fe5df8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+        "sha256": "4ec23b02d49c42c035d081e2b4a237c92c4da63ee44fb5cb97a0df8784156589"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt",
+        "sha256": "46c9f510102813b8739c832da6982a7325f165db3d2d94c864d76fe6cb76dd02"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+        "sha256": "0506b71802135224acaeabab2ecabbe7a450d381663076a0227a1dff37962bed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+        "sha256": "e20fbcd483d670f6515b59e3209143db2711e56c699686e1b9af4a513e15d9a8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "B_cnn_model.keras"
+  },
+  {
+    "authorized_person": "B",
+    "model": "lstm",
+    "params": {
+      "window_sec": 2,
+      "batch_size": 64,
+      "dropout": 0.3,
+      "learning_rate": 0.0002940190058220145,
+      "units": 128
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 8,
+    "best_trial": 19,
+    "protocol_sha256": "902d404fbcf27b5fc96dca5ea154d4d6cd1c8a51256b0007098aa48a74ff86cd",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B15.txt",
+        "sha256": "cceb699710ff811a437843f884a9d63330e853df7d4cb6ea311560a6f3c9d676"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B03.txt",
+        "sha256": "d364be79a5dc68f690a5a1ba875927ab5a6d033b8ee0398391bef383696d7eb3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B16.txt",
+        "sha256": "95e306ff82197f7763d17dc76e115174bb53c3f99e3910661e9bcf276a22c5c2"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B10.txt",
+        "sha256": "e0302c420894b4fbf51b117f438cf8185768ae1e5e72052877269e758e315a9f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B06.txt",
+        "sha256": "f495630d5d94af7264938abaf06886a2a24e4b859f046e2a3bec31a4b157778c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B02.txt",
+        "sha256": "c1c8e326c79c4ff11ba1758548c6fc4e209f5cfd385f6f08550de5a037fe5df8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B11.txt",
+        "sha256": "4ec23b02d49c42c035d081e2b4a237c92c4da63ee44fb5cb97a0df8784156589"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B12.txt",
+        "sha256": "46c9f510102813b8739c832da6982a7325f165db3d2d94c864d76fe6cb76dd02"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B13.txt",
+        "sha256": "0506b71802135224acaeabab2ecabbe7a450d381663076a0227a1dff37962bed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B08.txt",
+        "sha256": "e20fbcd483d670f6515b59e3209143db2711e56c699686e1b9af4a513e15d9a8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "B_lstm_model.keras"
+  },
+  {
+    "authorized_person": "C",
+    "model": "cnn",
+    "params": {
+      "window_sec": 2,
+      "batch_size": 64,
+      "dropout": 0.2,
+      "learning_rate": 0.00015874432233988704,
+      "filters": 64,
+      "kernel_size": 5
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 2,
+    "best_trial": 11,
+    "protocol_sha256": "baad856387c514d7aa66e779de964d035feb8058309b8bf3157b75edb18c5abf",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+        "sha256": "cdcec013ba7d73638e1bef7836b313a2b4526535e11742470a32fa579ee516b6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C16.txt",
+        "sha256": "223713496652c02d629f401404dccecaab8c7c9cab18e9ae129b5092a0f423eb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C17.txt",
+        "sha256": "5000a73cd27a12fe8b74e7dd8e9e420316f19f2a745f3773eaa93f6abbd954f2"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "sha256": "d535605ef837404d183d821f5b5bfec7127a9df150ed537b640257f28785b716"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+        "sha256": "e37b2b6782dfede613dff83cfc9ec80ef09c35747b0be02f4a5ce4614587e6fd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C18.txt",
+        "sha256": "fe238700f0292d342174cc7ada5fafdfe7285c81bbdca09a9949568620d05a74"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+        "sha256": "f535723604e003607fef7a5d1ad43818ece9944d5ef31b9465a375169e3ee57a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+        "sha256": "1b6191fc35b4964d672a38ed1ba5c9f9fc0fdb5152d08284b5b2bff52bf0aae8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "sha256": "1c7ae9f2a50cdc411ae8bb6c283326fcf512918142d880515d793645327ab1e5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+        "sha256": "67ba885b3cbef68045ab9eea0a8a54034cad3b3d08c6916e052478934993b210"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "C_cnn_model.keras"
+  },
+  {
+    "authorized_person": "C",
+    "model": "lstm",
+    "params": {
+      "window_sec": 4,
+      "batch_size": 32,
+      "dropout": 0.5,
+      "learning_rate": 0.00015463708440294872,
+      "units": 128
+    },
+    "sessions_per_person": 20,
+    "split_seed": 2,
+    "training_seed": 42,
+    "hyperparameters_reoptimized": false,
+    "parameter_selection_test_overlap": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt"
+    ],
+    "training_determinism": true,
+    "optimization_training_determinism": false,
+    "epochs": 1,
+    "best_trial": 15,
+    "protocol_sha256": "373085c8e2937d81885574e63f89cd44bbecc302ff920c10c2100fcb7ebaef34",
+    "train_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt"
+    ],
+    "test_files": [
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+      "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt"
+    ],
+    "train_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C04.txt",
+        "sha256": "b0a14fa96affba37013f6bae002abff48479a6c84e776901edd77e5329032f96"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C14.txt",
+        "sha256": "3ec7b4ec286c1842e21fe731ae1aa009502cb56a9339fe77de3e515da9042de8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C02.txt",
+        "sha256": "ed06e62455948c3707855328f9151b1e06ae17b6ce718aa0c726e4ad306c0d41"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C19.txt",
+        "sha256": "e67d2759c4263cab04884a5441026dad8d78a4216d7312cd41f8b6a862733120"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C11.txt",
+        "sha256": "260659eb04bea46e82b681e0e2556aa4818a26d0315352beab15c8dc1482e6c6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C05.txt",
+        "sha256": "c7e978b071489a7603f635234f533ce1656754f3fb809c51fac84015c8781e87"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C12.txt",
+        "sha256": "aa4f337dbe32297b6882a26507a48579e63dfc27456010c797c980811914cd3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C20.txt",
+        "sha256": "ecc52f408fb8a3911d81928f5fee17ecfd244dcfc07c896ba2b4a6245e022e6c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C08.txt",
+        "sha256": "cdcec013ba7d73638e1bef7836b313a2b4526535e11742470a32fa579ee516b6"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C16.txt",
+        "sha256": "223713496652c02d629f401404dccecaab8c7c9cab18e9ae129b5092a0f423eb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C17.txt",
+        "sha256": "5000a73cd27a12fe8b74e7dd8e9e420316f19f2a745f3773eaa93f6abbd954f2"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C01.txt",
+        "sha256": "d535605ef837404d183d821f5b5bfec7127a9df150ed537b640257f28785b716"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C10.txt",
+        "sha256": "e37b2b6782dfede613dff83cfc9ec80ef09c35747b0be02f4a5ce4614587e6fd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C18.txt",
+        "sha256": "fe238700f0292d342174cc7ada5fafdfe7285c81bbdca09a9949568620d05a74"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C06.txt",
+        "sha256": "f535723604e003607fef7a5d1ad43818ece9944d5ef31b9465a375169e3ee57a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C09.txt",
+        "sha256": "1b6191fc35b4964d672a38ed1ba5c9f9fc0fdb5152d08284b5b2bff52bf0aae8"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A07.txt",
+        "sha256": "3a7dd647f7a4cf8d1ab3894d8621c0041ea2d6fb336906d4b729d9feec639563"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A19.txt",
+        "sha256": "b6fdfabd9bdf0e63e463b7dc1017df04921870798aae38d594590569cee867bd"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A08.txt",
+        "sha256": "26b17069eab0c9379d0b7e073f02c77d2172eb954dc5c5eee190cc0c5e702a90"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A11.txt",
+        "sha256": "4d0cb3a9e9200b496fdd68faff38a0e8b9426ffd557d6c1b27aaa9e8d495cd97"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A03.txt",
+        "sha256": "5608fa7c1bee9faec4d368750fd4e8a0d908609090623f24f48a98acad99d804"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A12.txt",
+        "sha256": "f25d635daa6d4393f7ce893f44b67e52a344abc2f83484fac85a8f94b786ff3f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A01.txt",
+        "sha256": "2ac524ceb7b2b511b6951fed6971b921aadaa96b8b6daa6232a33427ce2c1ab5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A18.txt",
+        "sha256": "deddfe8d17a05c3926aed33f1b6749fe76d43e93188b9e376324220c5e333a88"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B17.txt",
+        "sha256": "c5c48e8416496ff88d2d5bd239754118a3aa2b0a635feafd01cdf9cd5877cd81"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B01.txt",
+        "sha256": "496973196a96243b1bb621fe133ffcf0d5ff9fe3b6dc9b927ab0ce676d9ae0bb"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B07.txt",
+        "sha256": "9ab97241f100ec72ea503312f4200059c324f294433848458df3f9ff2b57126d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B04.txt",
+        "sha256": "17e3318a5bfdddfd729de176be921d642d27690327a21cae240fb19ae0fed89c"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B18.txt",
+        "sha256": "6ca8d23fe8b36b8f214e4eaccaeb26b429d597f75f19db43b23a162b18c7442f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B14.txt",
+        "sha256": "39b1bd2eec857c0816f7b3c77fb00b350d07074f8270c94e0b1dfda9aed422c3"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B09.txt",
+        "sha256": "c220a017b705a47f49b509ff7841f5a51ff88281a9366d1fa01f564146cc8675"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B19.txt",
+        "sha256": "b1ee0a14c891323108b5ff0bcbaf25e1b3248e46c31c3ba57c0ac33d9e95306d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D08.txt",
+        "sha256": "16effeacae9daacb856906e0a7cebf0e3da31c6fbc9f8140236bf4606df05506"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D18.txt",
+        "sha256": "422a30b45da67e0ec417b3ab3a90181849277cc3df2e68f0adf359efa03a059f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D04.txt",
+        "sha256": "21edab2a4da8fa68121e28f6ebd96a62311d239a8e0b76961d1cb6baba985c6e"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D06.txt",
+        "sha256": "04b7fa0913e35b8b360881aace213674ed0339dd7e4bc6c2e16f6fa1a7b99221"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D20.txt",
+        "sha256": "0311d7bccdbe4e972a7431436534def4f90a3a6a5bdf45715858fb890a1acb43"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D01.txt",
+        "sha256": "9c94e34faff097d48e33de20dc63ec1d6b42d98b7305898a56c977d964cbc3ed"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D13.txt",
+        "sha256": "b4ab630bcf8a5187d7710d8ea6542549751ed1daaba5bb655bc6d91d44661340"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D19.txt",
+        "sha256": "c67f7c6edf217d75c8d0471b36b167b89028191fa0877eacea0927c033297d03"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D07.txt",
+        "sha256": "555d5c8a5bd30acf06df8d60b6ee34c15cda06a9909c819730c33630d8411608"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D10.txt",
+        "sha256": "9dab90689a803a78a60c4d30011c12021353fe75e83e2c9335ad9c8b49babc1d"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D11.txt",
+        "sha256": "1762769c0acc8f34c91780ff881eb76e3b2ca90b2abbbd8ae7f22f01d2268517"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D15.txt",
+        "sha256": "f1021250f581d8663e607c8c42371f2596dc43947762dd640a2ce2b46f34f586"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D16.txt",
+        "sha256": "f298255e21c02727126572df6d816c9cbb52ac24588d13d2cbf3a14a064e6336"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D14.txt",
+        "sha256": "cfafb7991e5e103888f87f8fbbfc8198870d2d09f0d953cbd218eeed594ec229"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D17.txt",
+        "sha256": "4a1b886166faa4b9eb5910c9e0e74cf7f19b942dab26de045636cbc89863d87f"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D03.txt",
+        "sha256": "ba84e24b2f6a9a436bda50fd397db8171db5f64feb583434da9c3b50a6d0e87e"
+      }
+    ],
+    "test_recordings": [
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C15.txt",
+        "sha256": "1353e4a67862ded43f5a67cea72592fc9a5b02a17373e5825e34153bc55ba2da"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C07.txt",
+        "sha256": "9c91929b23cc8e5f49e85fe9325de0394757c1587f5232931e3235336357488a"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C03.txt",
+        "sha256": "1c7ae9f2a50cdc411ae8bb6c283326fcf512918142d880515d793645327ab1e5"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/C/C13.txt",
+        "sha256": "67ba885b3cbef68045ab9eea0a8a54034cad3b3d08c6916e052478934993b210"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A04.txt",
+        "sha256": "348685e402303e583af0f2aede4c891ca24180d233920c2d9db06ee1ab46c249"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/A/A05.txt",
+        "sha256": "d50603ed89c96618f885b5ca7f13f80ab74d36cedf2ef782926b7e151584d456"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B20.txt",
+        "sha256": "5f268d3fd4ed16e904981fed7e1bb4480bd02107a35b55e18ff1ad5b8cc32957"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/B/B05.txt",
+        "sha256": "a0511122d38520aa5a2579ce5817e719547aa1bc736d431e4d7ef47996e72c27"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D09.txt",
+        "sha256": "0c318d43120a830f87bc9ba9f37666d3436cd33867420c464e015a0296ddccc1"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D02.txt",
+        "sha256": "6b0150fb694368c98f44373dcca2d4fdced15578f40e497cc39b9a5b5bb87baf"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D12.txt",
+        "sha256": "bc170a7fd0bd010f74821cc5a5ec8149d07dd7162bd9297dee979ab388b579ef"
+      },
+      {
+        "file": "/mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/data/D/D05.txt",
+        "sha256": "3b086955043d70e5d24d981da1c815b1e37590abf3f5d0163334459dfa631a41"
+      }
+    ],
+    "preprocessing_version": 2,
+    "model_file": "C_lstm_model.keras"
+  }
+]

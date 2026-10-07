@@ -2,3 +2,6 @@ data/**/*.txt
 .venv/
 __pycache__/
 *.py[cod]
+optuna_results/
+optuna_evaluation/
+data_audit/

@@ -1,0 +1,110 @@
+A cnn: train 36 files (6066, 80, 192), test 9 files (1536, 80, 192), epochs=12
+Epoch 1/12
+95/95 - 10s - 102ms/step - accuracy: 0.9164 - loss: 0.2258
+Epoch 2/12
+95/95 - 1s - 6ms/step - accuracy: 0.9878 - loss: 0.0477
+Epoch 3/12
+95/95 - 0s - 4ms/step - accuracy: 0.9929 - loss: 0.0250
+Epoch 4/12
+95/95 - 0s - 3ms/step - accuracy: 0.9960 - loss: 0.0133
+Epoch 5/12
+95/95 - 0s - 3ms/step - accuracy: 0.9957 - loss: 0.0158
+Epoch 6/12
+95/95 - 0s - 3ms/step - accuracy: 0.9957 - loss: 0.0137
+Epoch 7/12
+95/95 - 0s - 3ms/step - accuracy: 0.9982 - loss: 0.0080
+Epoch 8/12
+95/95 - 0s - 3ms/step - accuracy: 0.9990 - loss: 0.0046
+Epoch 9/12
+95/95 - 0s - 3ms/step - accuracy: 0.9987 - loss: 0.0051
+Epoch 10/12
+95/95 - 0s - 3ms/step - accuracy: 0.9995 - loss: 0.0032
+Epoch 11/12
+95/95 - 0s - 3ms/step - accuracy: 0.9969 - loss: 0.0091
+Epoch 12/12
+95/95 - 0s - 3ms/step - accuracy: 0.9980 - loss: 0.0076
+findfont: Failed to find font weight bold for NanumGothic, now using 600.
+findfont: Failed to find font weight bold for NanumGothic, now using 600.
+A cnn: Empty recall train=1.0000 / test=0.0000
+A cnn: final test Macro F1=0.4507
+A lstm: train 36 files (6066, 80, 192), test 9 files (1536, 80, 192), epochs=3
+Epoch 1/3
+95/95 - 6s - 60ms/step - accuracy: 0.9331 - loss: 0.2077
+Epoch 2/3
+95/95 - 3s - 34ms/step - accuracy: 0.9906 - loss: 0.0367
+Epoch 3/3
+95/95 - 3s - 32ms/step - accuracy: 0.9886 - loss: 0.0361
+A lstm: Empty recall train=1.0000 / test=0.0019
+A lstm: final test Macro F1=0.5000
+B cnn: train 36 files (6083, 80, 192), test 9 files (1536, 80, 192), epochs=6
+Epoch 1/6
+96/96 - 5s - 54ms/step - accuracy: 0.7366 - loss: 0.6347
+Epoch 2/6
+96/96 - 0s - 3ms/step - accuracy: 0.9004 - loss: 0.3205
+Epoch 3/6
+96/96 - 0s - 4ms/step - accuracy: 0.9469 - loss: 0.2075
+Epoch 4/6
+96/96 - 0s - 3ms/step - accuracy: 0.9574 - loss: 0.1613
+Epoch 5/6
+96/96 - 0s - 3ms/step - accuracy: 0.9679 - loss: 0.1215
+Epoch 6/6
+96/96 - 0s - 3ms/step - accuracy: 0.9773 - loss: 0.0976
+B cnn: Empty recall train=1.0000 / test=0.9924
+B cnn: final test Macro F1=0.8482
+B lstm: train 36 files (6362, 20, 192), test 9 files (1599, 20, 192), epochs=14
+Epoch 1/14
+199/199 - 5s - 25ms/step - accuracy: 0.8826 - loss: 0.3719
+Epoch 2/14
+199/199 - 4s - 19ms/step - accuracy: 0.9785 - loss: 0.0739
+Epoch 3/14
+199/199 - 4s - 19ms/step - accuracy: 0.9870 - loss: 0.0443
+Epoch 4/14
+199/199 - 4s - 20ms/step - accuracy: 0.9939 - loss: 0.0235
+Epoch 5/14
+199/199 - 4s - 19ms/step - accuracy: 0.9961 - loss: 0.0160
+Epoch 6/14
+199/199 - 4s - 20ms/step - accuracy: 0.9948 - loss: 0.0189
+Epoch 7/14
+199/199 - 4s - 18ms/step - accuracy: 0.9962 - loss: 0.0143
+Epoch 8/14
+199/199 - 4s - 19ms/step - accuracy: 0.9958 - loss: 0.0178
+Epoch 9/14
+199/199 - 4s - 20ms/step - accuracy: 0.9972 - loss: 0.0136
+Epoch 10/14
+199/199 - 4s - 20ms/step - accuracy: 0.9975 - loss: 0.0081
+Epoch 11/14
+199/199 - 4s - 21ms/step - accuracy: 0.9978 - loss: 0.0087
+Epoch 12/14
+199/199 - 4s - 20ms/step - accuracy: 0.9994 - loss: 0.0027
+Epoch 13/14
+199/199 - 4s - 20ms/step - accuracy: 0.9992 - loss: 0.0031
+Epoch 14/14
+199/199 - 4s - 20ms/step - accuracy: 0.9991 - loss: 0.0051
+B lstm: Empty recall train=1.0000 / test=0.0205
+B lstm: final test Macro F1=0.3922
+C cnn: train 36 files (6121, 80, 192), test 9 files (1536, 80, 192), epochs=2
+Epoch 1/2
+192/192 - 8s - 41ms/step - accuracy: 0.9418 - loss: 0.1633
+Epoch 2/2
+192/192 - 1s - 4ms/step - accuracy: 0.9820 - loss: 0.0550
+C cnn: Empty recall train=1.0000 / test=0.9924
+C cnn: final test Macro F1=0.8700
+C lstm: train 36 files (6121, 80, 192), test 9 files (1536, 80, 192), epochs=7
+Epoch 1/7
+383/383 - 15s - 40ms/step - accuracy: 0.9139 - loss: 0.3029
+Epoch 2/7
+383/383 - 14s - 37ms/step - accuracy: 0.9851 - loss: 0.0597
+Epoch 3/7
+383/383 - 14s - 36ms/step - accuracy: 0.9953 - loss: 0.0285
+Epoch 4/7
+383/383 - 13s - 35ms/step - accuracy: 0.9789 - loss: 0.0916
+Epoch 5/7
+383/383 - 13s - 34ms/step - accuracy: 0.9931 - loss: 0.0314
+Epoch 6/7
+383/383 - 14s - 36ms/step - accuracy: 0.9972 - loss: 0.0116
+Epoch 7/7
+383/383 - 13s - 34ms/step - accuracy: 0.9876 - loss: 0.0565
+C lstm: Empty recall train=1.0000 / test=0.0095
+C lstm: final test Macro F1=0.4339
+혼동행렬 및 최종 테스트 평가 저장: /mnt/c/Users/OWNER/Desktop/newfloder/zero_trust/optuna_evaluation_15_20261007
+학습/테스트 파일별 정확도, 클래스별 확률, 학습 기록, 모델 및 입력 파일 해시도 저장했습니다.
